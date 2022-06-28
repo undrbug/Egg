@@ -23,5 +23,4 @@ public class Guia6Ej4 {
         double gradosF = 32 + (gradosC*9/5);
         System.out.println("Los " + gradosC + " grados Centigrados son " + gradosF + " grados Fahrenheit");
     }
-    
 }
