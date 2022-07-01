@@ -26,9 +26,6 @@ public class Guia6Ej12 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
-        //System.out.println("Ingrese una cadena");
-        //String cadenaIngresada = leer.nextLine().toUpperCase();
-        //int longitud;
         String cadenaIngresada;
         int contCorrectas = 0, contIncorrectas = 0;
         do {
@@ -45,23 +42,9 @@ public class Guia6Ej12 {
                 System.out.println("Es igual a 5");
             } else {
                 System.out.println("Por favor revise la cantidad de caracteres ingresados");
-                
             }
         } while (!cadenaIngresada.equals("&&&&&"));
         System.out.println("Ingresos correctos: " + contCorrectas);
         System.out.println("Ingresos correctos: " + contIncorrectas);
     }
-    
 }
-
-
-/*
-    do {
-        System.out.println("Ingrese una cadena");
-        cadenaIngresada = leer.nextLine().toUpperCase();
-        
-        System.out.println(cadenaIngresada.length());
-        
-    } while (!((cadenaIngresada.length() == 5) || (cadenaIngresada.substring(0).equals("X")) || (cadenaIngresada.substring(4).equals("O") )));
-       System.out.println("salimos");
-*/
