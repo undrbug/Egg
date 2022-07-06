@@ -5,7 +5,7 @@ cambiando sus filas por columnas (o viceversa).
  */
 package guia6.ej.pkg18;
 
-import java.util.Scanner;
+
 
 /**
  *
@@ -18,7 +18,7 @@ public class Guia6Ej18 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner leer = new Scanner(System.in);
+
         int limite = 4;
         int[][] matrizA = new int[limite][limite];
         int[][] matrizB = new int[limite][limite];
