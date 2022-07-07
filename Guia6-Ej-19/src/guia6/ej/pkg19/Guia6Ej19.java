@@ -27,7 +27,7 @@ public class Guia6Ej19 {
         imprimirMatriz(matrizA,lim);
         //int[][] matrizAt = new int[lim][lim];
         //cargarMatriz(matrizAt,lim);
-        int[][] matrizAt = {{-1,-8,-2},{-2,5,-3},{-3,-3,-4}};
+        int[][] matrizAt = {{-1,-8,-2},{-2,-5,-3},{-3,-3,-4}};
         imprimirMatriz(matrizAt,lim);
         //comparo con la trspuesta para ver si es anti simetrica
         for (int i = 0; i < lim; i++) {
