@@ -30,16 +30,16 @@ public class Guia6Ej17 {
                     break;
                 case 2:
                     contador2D++;
-                    break;                   
+                    break;
                 case 3:
                     contador3D++;
-                    break;                    
+                    break;
                 case 4:
-                    contador4D++;                    
-                    break;                    
+                    contador4D++;
+                    break;
                 case 5:
-                    contador5D++;    
-                    break;                    
+                    contador5D++;
+                    break;
             }
         }
         System.out.println(contador1D);
@@ -48,5 +48,5 @@ public class Guia6Ej17 {
         System.out.println(contador4D);
         System.out.println(contador5D);
     }
-    
+
 }

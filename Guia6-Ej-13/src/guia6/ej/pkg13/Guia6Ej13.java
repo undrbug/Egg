@@ -35,7 +35,7 @@ public class Guia6Ej13 {
                     if (j==0 || j==elementos-1){
                         System.out.print("*");
                     } else {
-                        System.out.print(" ");
+                        System.out.print(" 4");
                     }
                 }
                 System.out.println("");

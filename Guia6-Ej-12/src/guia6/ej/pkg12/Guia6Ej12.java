@@ -37,7 +37,9 @@ public class Guia6Ej12 {
                 if ((cadenaIngresada.substring(0,1).equals("X")) && (cadenaIngresada.substring(4).equals("O"))) {
                     contCorrectas++;
                 } else {
-                    contIncorrectas++;
+                    if (!cadenaIngresada.equals("&&&&&")){
+                        contIncorrectas++;                        
+                    }
                 }
                 System.out.println("Es igual a 5");
             } else {
@@ -45,6 +47,6 @@ public class Guia6Ej12 {
             }
         } while (!cadenaIngresada.equals("&&&&&"));
         System.out.println("Ingresos correctos: " + contCorrectas);
-        System.out.println("Ingresos correctos: " + contIncorrectas);
+        System.out.println("Ingresos Incorrectos: " + contIncorrectas);
     }
 }
