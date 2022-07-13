@@ -132,7 +132,7 @@ public class Guia6Ej21 {
         matriz[4][1] = 76;
         matriz[4][2] = 79;
         matriz[4][3] = 1;
-        matriz[4][4] = 20;
+        matriz[4][4] = 36;
         matriz[4][5] = 5;
         matriz[4][6] = 67;
         matriz[4][7] = 96;

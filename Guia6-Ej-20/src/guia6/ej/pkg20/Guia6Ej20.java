@@ -47,6 +47,12 @@ public class Guia6Ej20 {
         }else{
             System.out.println("no, no es maaagicaaa");
         }
+        for (int i = 0; i < lim; i++) {
+            for (int j = 0; j < lim; j++) {
+                System.out.print(matriz[i][j]);
+            }
+            System.out.println("");
+        }
     }
     
 }
